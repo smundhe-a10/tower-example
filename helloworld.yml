@@ -5,6 +5,5 @@
   tasks:
     - name: Run commands from lines
       a10.acos_cli.acos_command:
-        ansible_host: "{{ ansible_host }}"
         commands: show running-config
 
