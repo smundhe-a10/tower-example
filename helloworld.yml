@@ -2,6 +2,7 @@
   hosts: all
   gather_facts: false
   become: True
+  become_user: admin
   tasks:
     - name: Run commands from lines
       a10.acos_cli.acos_command:
