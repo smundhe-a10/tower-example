@@ -1,5 +1,5 @@
 - name: RUN COMMAND FOR CONFIGURE FILE
-  hosts: all
+  hosts: vthunder
   gather_facts: false
   become: True
   become_user: admin
