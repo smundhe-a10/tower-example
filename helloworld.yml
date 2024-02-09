@@ -1,5 +1,5 @@
 - name: RUN COMMAND FOR CONFIGURE FILE
-  hosts: vthunder
+  hosts: all
   gather_facts: false
   become: True
   tasks:
